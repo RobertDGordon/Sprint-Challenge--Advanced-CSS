@@ -332,3 +332,51 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.content-contact {
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 30px;
+}
+.content-contact input[type=text],
+.content-contact select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.content-contact .btn {
+  display: flex;
+  background-color: #22283A;
+  cursor: pointer;
+  width: 10rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 5px;
+  color: #F6F7F8;
+  margin: 2%;
+}
+.content-contact .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
+}
+@media (max-width: 500px) {
+  .content-contact .btn {
+    width: 100%;
+    height: 70px;
+  }
+}
+@media (max-width: 500px) {
+  .content-contact .btn {
+    margin: 2% auto;
+  }
+}
+.content-contact div {
+  border-radius: 5px;
+  background-color: #F6F7F8;
+  padding: 20px;
+}
