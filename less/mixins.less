@@ -1,4 +1,13 @@
 // Mixins Here
+.opacity (@opacity: 0.8) {
+    opacity: @opacity;
+}
+
+.centerit (@justify: center, @align: center){
+    justify-content: @justify;
+    align-items: @align;
+}
+
 .custom-btn(@bg-color:@btn-bg-color, @width: 10rem, @txt-color:@porcelain){
     display: flex;
     background-color: @bg-color;
