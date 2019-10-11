@@ -1,1 +1,28 @@
 // Mixins Here
+.custom-btn(@bg-color:@btn-bg-color, @width: 10rem, @txt-color:@porcelain){
+    display: flex;
+    background-color: @bg-color;
+    // margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 5px;
+    color:@txt-color;
+    
+    &:hover{
+      background-color: @txt-color;
+      color: @bg-color;
+    }
+  
+    @media @phone{
+        width: 90%;
+        height: 50px;
+    }
+    // @media @tablet{
+    //     width: 70%;
+    //     text-align: center;
+    // }
+  }
